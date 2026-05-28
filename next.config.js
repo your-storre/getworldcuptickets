@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    domains: ['images.unsplash.com', 'flagcdn.com', 'nyhiqzpzffkwzgnmjwnp.supabase.co'],
+    domains: ['images.unsplash.com', 'flagcdn.com'],
   },
-  swcMinify: true,
-  reactStrictMode: true,
 }
